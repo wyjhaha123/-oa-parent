@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: service-oa
+  profiles:
+    active: dev
+
+
+#mybatis-plus:
+#  #外部化xml配置
+#  #config-location: classpath:mybatis-config.xml
+#  #指定外部化 MyBatis Properties 配置，通过该配置可以抽离配置，实现不同环境的配置部署
+#  #configuration-properties: classpath:mybatis/config/properties
+#  #xml扫描，多个目录用逗号或者分号分割（告诉 Mapper 所对应的 XML 文件位置）
+#  mapper-locations: classpath:com/atguigu/auth/mapper/xml/*.xml
+
+
